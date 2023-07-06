@@ -1,0 +1,5 @@
+chainlit
+ipykernel
+python_dotenv
+
+
