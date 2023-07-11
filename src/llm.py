@@ -9,7 +9,7 @@ def get_gpt_response(messages,model="gpt-3.5-turbo",temperature=0):
         response=openai.ChatCompletion.create(
             model=model,
             temperature=temperature,
-            message=messages
+            messages=messages
         )
         return response.choices[0].message["content"]
         
